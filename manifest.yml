@@ -1,0 +1,8 @@
+---
+applications:
+- name: downloader-client-docs
+  buildpack: staticfile_buildpack
+  memory: 128M
+  instances: 1
+  host: downloader-client
+  domain: mybluemix.net
